@@ -5,9 +5,9 @@ on:
       - cron: "0 0 * * *"  
 
 jobs: 
-         run-script:
-          runs-on: ubuntu-latest
+    run-script:
+        runs-on: ubuntu-latest
 
-          steps: 
+        steps: 
              - name: Print Message
-                    run: echo "schedule workflow executed" 
+               run: echo "Schedule workflow executed"
